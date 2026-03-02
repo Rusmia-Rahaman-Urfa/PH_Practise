@@ -11,3 +11,12 @@ const dress = ['Shirt', 'Pant', 'Shoe'];
 // dress = ['Shirt', 'Pant', 'Shoe', 'Belt'];
 dress.push('Belt');
 console.log(dress);
+
+const student = {
+    name: 'John',
+    age: 25
+}
+
+student.name = 'Jane';
+student.age = 30;
+console.log(student);
