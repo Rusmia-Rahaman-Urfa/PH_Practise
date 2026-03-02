@@ -6,3 +6,8 @@ console.log(countryName);
 let price = 120;
 price = 150;
 console.log(price);
+
+const dress = ['Shirt', 'Pant', 'Shoe'];
+// dress = ['Shirt', 'Pant', 'Shoe', 'Belt'];
+dress.push('Belt');
+console.log(dress);
