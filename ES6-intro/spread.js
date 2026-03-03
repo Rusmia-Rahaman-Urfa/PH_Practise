@@ -18,3 +18,9 @@ function sum(x, y, z) {
 // arr2.push(4);
 // console.log(arr1);
 // console.log(arr2);
+
+const arr1 = [1, 2, 3];
+const arr2 = [11, ...arr1, 66, 77];
+// arr2.push(4);
+// console.log(arr1);
+// console.log(arr2);
