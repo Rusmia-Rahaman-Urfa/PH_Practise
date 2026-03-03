@@ -24,3 +24,9 @@ const arr2 = [11, ...arr1, 66, 77];
 // arr2.push(4);
 // console.log(arr1);
 // console.log(arr2);
+
+const person = { name: 'Alice', age: 30 };
+// const person2 = person;
+const person2 = {...person, designation: 'Developer'};
+person.salary = 36000;
+console.log(person);
